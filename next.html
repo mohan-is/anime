@@ -1,0 +1,345 @@
+<html>
+    <head>              
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>   
+<style>
+   .nav-link{
+            color: #fafafa;
+          }
+          .nav-item:hover .nav-link{
+background-color: azure;
+color: #000;
+border-radius: 2px;
+          }
+          .carousel-inner img{
+    width: 100%;
+    height: 100%;
+    top: center;
+  }
+
+.col-sm-2:hover .image-hover-text{
+  opacity: 1;
+  transition: ease-in-out;
+  color: #e0e0e0;
+  
+}
+.col-sm-2:hover .anime{
+  opacity: 0.3;
+  height: 260px;
+  transition: ease-in-out;
+ 
+}
+.col-sm-2:hover #anime-name{
+    display: none;
+}
+
+.anime{
+    border-radius: 5px;
+}
+
+ .image-hover-text{
+   
+   color: aliceblue;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: left;
+  height: 140px;
+  width: 160px;
+  display: inline-block;
+ overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 80%;
+}
+#anime-name{
+    color: #ffffff;
+    float: left;
+    font-size: 80%;
+}
+#language-1{
+border: none;
+background: none;
+font-size: 12px;
+}
+#language-1:hover {
+  background-color: #303030;
+}
+#singlelanguage{
+  font-size: 12px;
+  background-color: #303030;
+}
+ 
+</style>    
+</head>
+    <body style="background: linear-gradient(to bottom, #030303 0%,rgb(14, 13, 13) 50%,rgb(16, 17, 17) 70%,rgb(49, 65, 59) 95%, #335850 100%);">
+         <nav class="navbar navbar-expand-sm  fixed-top" style="background-color: rgb(83, 83, 83); color: #fafafa; height: 40px;">
+            <button class="navbar-toggler" type="button" style="background-color: rgb(201, 201, 201);" data-toggle="collapse" data-target="#navbar-head">
+        <span class="navbar-toggler-iocn"></span>
+       <i class="fa fa-bars" style="color: beige;"></i></button>
+        <div class="collapse navbar-collapse" id="navbar-head">
+        <ul class="navbar-nav"  >
+            <li class="nav-item" style="width: 100px; text-align: center;">
+                <a class="nav-link" href="home.html" >Home</a>
+            </li>
+             <li class="nav-item" style="width: 100px; text-align: center;">
+                <a class="nav-link" href="next.html">Popular</a>
+            </li>
+            <li class="nav-item" style="width: 100px; text-align: center;">
+                <a class="nav-link" href="" data-toggle="dropdown">Cartegories</a>
+                <ul class="dropdown-menu" style="margin-left: 215px; width: 20px; background-color: #000; border-radius: 0%; opacity: 0.7; border-color: #fafafa; " >
+             <li style="text-align: left; margin: 5px;" ><a href="#section41"  style=" background-color: #000; color: #fafafa;">Action </a></li>
+              <li style="text-align: left; margin: 5px;" ><a href="#section42"  style=" background-color: #000; color: #fafafa;">Comedy </a></li>
+              <li style="text-align: left; margin: 5px;" ><a href="#section41"  style=" background-color: #000; color: #fafafa;">Drama </a></li>
+             </ul>
+              
+            </li>
+         <li class="nav-item" style="width: 100px; text-align: center;">
+                <a class="nav-link" href=""></i>content</a>
+            </li>
+             <li class="nav-item" style="width: 100px; text-align: center;">
+                <a class="nav-link" href=""><i class="fa fa-info-circle"></i> About</a>
+                
+            </li>
+        </ul>
+        </div>
+        <input type="text" class="search" style="float: right;  border-radius: 10px;"  placeholder="search...."><i class="fa fa-fw fa-search" style="margin: 15px;"></i>
+    <a href="loginpage.html" style="color: #fafafa;"><i class="fa fa-user icon"></i></a>
+      </nav>
+        <div class="container"  style="position: relative; width: 100%; height: auto; display: flex;flex-direction: column; text-align: center;">
+            <br> <br>
+            <h2 style="color: rgb(127, 165, 199); font-style: fantasy; text-align: left;">Most Popular Anime</h2>
+            <br><br>
+            <h3 style="color: rgb(127, 165, 199); font-style: fantasy; text-align: left;">Popular</h3>
+          <br>
+          
+          
+
+            <div class="row">
+                 <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/1 fruits basket.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+               <a href="" class="image-hover-text" ></a><br>
+               <div class="title" id="anime-name">Fruits Basket</div>
+                  </div>
+                <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/2 blessing.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text"  ></a>
+                <div class="title" id="anime-name"></div>
+                  </div>
+                  <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/3 soun eater.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text" ></a>
+                <div class="title" id="anime-name"></div>
+                  </div>
+                <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/4 chainsaw man.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text"  ></a>
+                <div class="title" id="anime-name"></div>
+                  </div>
+                 <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/5 my hero academia.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text"  ></a>
+                <div class="title" id="anime-name"></div>
+                  </div>
+                 <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/6 junji.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text" ></a>
+                <div class="title" id="anime-name"></div>
+                  
+                  </div>   
+            </div>
+
+
+             <div class="row">
+                 <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/7 overload.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+               <a href="" class="image-hover-text" ></a>
+               <div class="title" id="anime-name"></div>
+                  </div>
+                <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/8 makeine.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text"  ></a>
+                <div class="title" id="anime-name"></div>
+                  </div>
+                  <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/9 demon slayer.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text" ></a>
+                <div class="title" id="anime-name"></div>
+                  </div>
+                <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/10 dan da dan.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text"  ></a>
+                <div class="title" id="anime-name"></div>
+                  </div>
+                 <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/11 spy x family.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text"  ></a>
+                <div class="title" id="anime-name"></div>
+                  </div>
+                 <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/12 toilet- bound.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text" ></a>
+                <div class="title" id="anime-name"></div>
+                  
+                  </div>   
+            </div>
+
+
+             <div class="row">
+                 <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/13 the apothecary.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+               <a href="" class="image-hover-text" ></a>
+               <div class="title" id="anime-name"></div>
+                  </div>
+                <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/14 kaiju no.8.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text"  ></a>
+                <div class="title" id="anime-name"></div>
+                  </div>
+                  <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/15 haikyu!!.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text" ></a>
+                <div class="title" id="anime-name"></div>
+                  </div>
+                <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/16 shangri-la frontier.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text"  ></a>
+                <div class="title" id="anime-name"></div>
+                  </div>
+                 <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/17 kaisen.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text"  ></a>
+                <div class="title" id="anime-name"></div>
+                  </div>
+                 <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/18 black-clover.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text" ></a>
+                <div class="title" id="anime-name"></div>
+                  
+                  </div>   
+            </div>
+
+
+             <div class="row">
+                 <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/19 re-zero.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+               <a href="" class="image-hover-text" ></a>
+               <div class="title" id="anime-name"></div>
+                  </div>
+                <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/20 solo leveling.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text"  >They say whatever doesn’t kill you makes you stronger, but that’s not the case for the world’s weakest hunter Sung Jinwoo. After being brutally slaughtered by monsters in a high-ranking dungeon, Jinwoo came back with the System, a program only he could see, that’s leveling him up in every way. Now, he’s inspired to discover the secrets behind his powers and the dungeon that spawned them.</a>
+                <div class="title" id="anime-name"></div>
+                  </div>
+                  <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/21 mashle.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text" ></a>
+                <div class="title" id="anime-name"></div>
+                  </div>
+                <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/22 true beauty.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text"  ></a>
+                <div class="title" id="anime-name"></div>
+                  </div>
+                 <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/23 frieren.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text"  ></a>
+                <div class="title" id="anime-name"></div>
+                  </div>
+                 <div class="col-sm-2" style="height: 300px;">
+                    <img src="Images/24 naruto.jpg" alt="anime" class="anime" style="width: 100%" height="250px">
+                <a href="" class="image-hover-text" ></a>
+                <div class="title" id="anime-name"></div>
+                  
+                  </div>   
+            </div>
+        </div>
+       </div>
+        <div  class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <ul style="list-style-type: none;">
+        <h3 style="color: #fafafa;">Navigation</h3>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);">Browse Popular</a> </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);">Browse Simulcasts</a> </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);">Release Calendar</a> </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);">News</a> </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);">Games</a> </li>
+      </ul>
+    </div>
+    <div class="col-sm-3" >
+      <ul style="list-style-type: none;">
+        <h3 style="color: #fafafa;">Connect With Us</h3>
+        <li> <a href="" style="color: rgb(255, 208, 0);"><i class="fa fa-bell"></i> Start a Free Trial</a> </li>
+        <li id="flooter-row" ><a href=""style="color: rgb(89, 154, 163);">About</a>  </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);">Help Center</a> </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);">Terms of Use</a> </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);">Privacy Policy</a> </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);">Do Not Sell or Share My Personal Information</a> </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);">Cookie Consent Tool</a> </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);">Press Inquiries</a> </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);">Advertising Inquiries</a> </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);">Get the Apps</a> </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);">Redeem Gift Card</a> </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);">Jobs</a> </li>
+      </ul>
+    </div>
+    
+    <div class="col-sm-3">
+      <ul style="list-style-type: none;">
+        <h3 style="color: #fafafa;">AnimeDa</h3>
+        <li id="flooter-row" ><a href=""style="color: rgb(89, 154, 163);"><i class="fa fa-youtube-play"></i> Youtube</a>  </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);"><i class="fa fa-facebook-square"></i> Facebook</a> </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);"><i class="fa fa-telegram"></i> Telegram</a> </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);"><i class="fa fa-instagram"></i> Instagram</a> </li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);"><i class="fa fa-twitter"></i> Twitter</a> </li>
+      </ul>
+    </div>
+    <div class="col-sm-3" >
+      <ul style="list-style-type: none;">
+        <h3 style="color: #fafafa;">Account</h3>
+        <li id="flooter-row" ><a href=""style="color: rgb(89, 154, 163);">Create Account</a></li>
+        <li id="flooter-row" > <a href=""style="color: rgb(89, 154, 163);">Log In</a> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<hr style="width:80%;margin: left 20px;; background-color: #fafafa; ">
+<footer style="text-align: center; margin-left: 20%; color: rgb(89, 154, 163);">© AnimeDa, LLC
+  <select name="language" id="language-1" style=" float: right; margin-right: 180px;  color: #fafafa;">
+  <option id="singlelanguage">ENGLISH</option>
+  <option id="singlelanguage">HINDI</option>
+  <option id="singlelanguage">TAMIL</option>
+  <option id="singlelanguage">KANNADA</option>
+  <option id="singlelanguage">MALAYALAM</option>
+  <option id="singlelanguage">TELUGU</option>
+</select>
+</footer>
+<hr style="width:80%;margin: left 20px;; background-color: #fafafa; ">
+<div  class="container" >
+  <div class="row">
+    <div class="col-sm-6" style="color: #fafafa;">
+      <p>Welcome to Crunchyroll, your ultimate destination for streaming the best in anime entertainment. Whether you’re a lifelong fan or just starting your anime journey, Crunchyroll offers an extensive library of top-tier anime series and movies. From action-packed adventures like Naruto and One Piece to fan-favorites such as Demon Slayer and Attack on Titan, we bring the world of anime right to your screen. With thousands of hours of content, you’ll find something for every mood and taste, whether you’re into heart-pounding action, touching romance, or gripping mysteries.</p>
+      <br>
+      <p>At Crunchyroll, we take pride in being the go-to-platform for anime lovers around the world. You can dive into a wide variety of genres, including fantasy, slice of life, and sci-fi, ensuring there’s always something new to discover.</p>
+      </div>
+      <div class="col-sm-6" style="color: #fafafa; overflow: hidden;">
+        <p>With simulcasts straight from Japan, you’ll never miss a moment of the latest and greatest anime releases. Our selection goes beyond just series—enjoy a handpicked selection of anime movies that showcase the best in animation and storytelling. Watch anytime, anywhere, with the Crunchyroll app available across all your devices.</p>
+        <br>
+        <p>Beyond streaming, Crunchyroll is a hub for all things anime. Explore the Crunchyroll Store for exclusive anime merchandise, collectibles, and apparel. Stay updated with Crunchyroll News, delivering the latest on anime, manga, and pop culture. And for gamers, Crunchyroll Games brings your favorite anime worlds to live in exciting and interactive ways. Join the Crunchyroll community and immerse yourself in a world where anime is more than just a genre—it’s a lifestyle.</p>
+      <br><br>
+      </div>
+      </div>
+      </div>
+    </body>
+</html>
